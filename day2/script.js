@@ -76,21 +76,37 @@
 // console.log(armstrongNums);
 // console.log(notArmstrong);
 
-
 /* Task8: 
 *  
 * *  
 * * *  
 * * * *  
 * * * * * */
-let i, j, char = "";
-for(let i = 2; i < 10; i++){
-       for(let j = 1; j < i; j++){
-        char = char + ("*  ");
-    }    
-    console.log(char);
-    char = "";
+// let i, j, char = "";
+// for(let i = 2; i < 10; i++){
+//        for(let j = 1; j < i; j++){
+//         char = char + ("*  ");
+//     }    
+//     console.log(char);
+//     char = "";
+// }
+
+//Task9
+let arr1 = [3, 5, 22, 5,  7,  2,  45, 75, 89, 21, 2]; 
+let arr2 = [9, 2, 42, 55, 71, 22, 4,  5,  90, 25, 26];
+let sumArr1 = 0;
+let result;
+for(let i = 0; i < arr1.length; i++){
+    sumArr1 += arr1[i] 
 }
+let sumArr2 = 0;
+let j = 0;
+while (j < arr2.length){
+    sumArr2 += arr2[j]
+    j++;
+}
+console.log(result = sumArr1 + sumArr2);
+
 
 
 
