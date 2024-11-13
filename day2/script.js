@@ -56,26 +56,41 @@
 // }
 
 // TAsk7: uch xonali Armstrong raqamlarni topish
-const armstrongNums = [];
-const notArmstrong = [];
-for(let i = 100; i <= 999; i++){
-    lastNum = i % 10
-    middleNum = Math.floor((i % 100) / 10)
-    firstNum = Math.floor(i / 100)
-    lastNumKub = (lastNum*lastNum*lastNum )
-    middleNumKub = (middleNum*middleNum*middleNum)
-    firstNumkub = (firstNum*firstNum*firstNum)
-    sum = lastNumKub + middleNumKub + firstNumkub
-    if(i == sum){
-    armstrongNums.push(i);
-    }
-    else{
-        notArmstrong.push(i);
-    }
-}
-console.log(armstrongNums);
-console.log(notArmstrong);
+// const armstrongNums = [];
+// const notArmstrong = [];
+// for(let i = 100; i <= 999; i++){
+//     lastNum = i % 10
+//     middleNum = Math.floor((i % 100) / 10)
+//     firstNum = Math.floor(i / 100)
+//     lastNumKub = (lastNum*lastNum*lastNum )
+//     middleNumKub = (middleNum*middleNum*middleNum)
+//     firstNumkub = (firstNum*firstNum*firstNum)
+//     sum = lastNumKub + middleNumKub + firstNumkub
+//     if(i == sum){
+//     armstrongNums.push(i);
+//     }
+//     else{
+//         notArmstrong.push(i);
+//     }
+// }
+// console.log(armstrongNums);
+// console.log(notArmstrong);
 
+
+/* Task8: 
+*  
+* *  
+* * *  
+* * * *  
+* * * * * */
+let i, j, char = "";
+for(let i = 2; i < 10; i++){
+       for(let j = 1; j < i; j++){
+        char = char + ("*  ");
+    }    
+    console.log(char);
+    char = "";
+}
 
 
 
