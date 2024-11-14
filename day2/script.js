@@ -92,20 +92,41 @@
 // }
 
 //Task9
-let arr1 = [3, 5, 22, 5,  7,  2,  45, 75, 89, 21, 2]; 
-let arr2 = [9, 2, 42, 55, 71, 22, 4,  5,  90, 25, 26];
-let sumArr1 = 0;
-let result;
-for(let i = 0; i < arr1.length; i++){
-    sumArr1 += arr1[i] 
+// let arr1 = [3, 5, 22, 5,  7,  2,  45, 75, 89, 21, 2]; 
+// let arr2 = [9, 2, 42, 55, 71, 22, 4,  5,  90, 25, 26];
+// let sumArr1 = 0;
+// let result;
+// for(let i = 0; i < arr1.length; i++){
+//     sumArr1 += arr1[i] 
+// }
+// let sumArr2 = 0;
+// let j = 0;
+// while (j < arr2.length){
+//     sumArr2 += arr2[j]
+//     j++;
+// }
+// console.log(result = sumArr1 + sumArr2);
+//Task10:
+// let n = 30;
+// for (let i = 1; i <= n; i++){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+// }
+//Task11:
+let arr = [43, "what", 9, true, "cannot", false, "be", 3, true];
+for(let i = 0; i < arr.length-1; i--){
+    console.log(arr[i]);
 }
-let sumArr2 = 0;
-let j = 0;
-while (j < arr2.length){
-    sumArr2 += arr2[j]
-    j++;
-}
-console.log(result = sumArr1 + sumArr2);
+
+let arr1 = [43, "what", 9, true, "cannot", false, "be", 3, true, aaa, bbb];
+reverse = arr1.reverse()
+console.log(reverse);
+
+let arr2 = [43, "what", 9, true, "cannot", false, "be", 3, true,789, asd];
+reverseArr = arr2.slice().reverse();
+console.log(reverseArr);
+
 
 
 
