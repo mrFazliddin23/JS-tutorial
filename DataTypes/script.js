@@ -42,6 +42,22 @@ Faqat Object.getOwnPropertySymbols() bilan ko‘rinadi*/
 // let checkEquality2 = null === undefined;
 // console.log(checkEquality2);//false
 
+/* Nan - raqam emas degani 
+isNaN - raqam yoki raqam emasligini tekshiradi */
+console.log(typeof(NaN)); //number
+console.log(0 / 0);        // NaN
+console.log("hello" - 5);  // NaN
+console.log(Math.sqrt(-1)); // NaN
+
+console.log(typeof(isNaN));//function
+console.log(isNaN("hello"));     // true ❗️
+console.log(isNaN("123"));       // false
+console.log(isNaN(undefined));   // true ❗️
+
+
+
+
+
 
 
 
