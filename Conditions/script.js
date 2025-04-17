@@ -80,3 +80,17 @@
 // } else {
 //   alert("Iltimos, avval tizimga kiring ");
 // }
+
+// let age = +prompt("Yoshingizni kiriting");
+// let result = age >= 18 ? "Voyaga yetgansz" : "siz voyaga yetmagansiz";
+// console.log(result);
+
+// const num = +prompt("Sonni kiriting");
+// const evenOdd = num % 2 == 0 ? "bu son juft" : "bu raqam toq";
+// alert(evenOdd);
+
+const productPrice = +prompt("Xaridingiz umumiy narxi qancha?");
+const seil = productPrice >= 100 ? `xaridingiz ${productPrice} bo'lgani uchun Sizga 12%chegirma qilamiz` : "sizga chegirma yo'q";
+console.log(seil);
+
+ 
